@@ -12,7 +12,7 @@ teletransmission_rive.ino : code du datalogger situé sur la rive dans le cas de
 teletransmission_riviere.ino : code à téléverser sur une carte Arduino qui ira au fond de la rivière, sera reliée aux capteurs et équipée d'un module de radiofréquence ; ce code fait faire les mesures par les capteurs lorsqu'un ordre est reçu de l'Arduino "rive" et renvoie les valeurs mesurées à l'Arduino "rive"
 
 
-teletransmission_rive_v2.ino et teletransmission_riviere_v2.ino : très similaires aux deux précédents sauf qu'ils utilisent le module de télécommunication wirelessSPI au lieu de radio, ce qui doit permettre la communication d'un plus grand nombre de données à la fois. En effet, les codes précédents permettent seulement la communication de deux variables parmi les 5 (t1,t2,t3,t4,pressure) entre la rivière et la rive; le module wirelessSPI doit permettre la communication des 5 variables. Cependant, ces deux derniers codes n'ont pas encore été testés sur des cartes Arduino, il s'agit d'une modification récente de notre part
+teletransmission_rive_v2.ino et teletransmission_riviere_v2.ino : très similaires aux deux précédents sauf qu'ils utilisent le module de télécommunication wirelessSPI au lieu de radio, ce qui doit permettre la communication d'un plus grand nombre de données à la fois. En effet, les codes précédents permettent seulement la communication de deux variables parmi les 5 (t1,t2,t3,t4,pressure) entre la rivière et la rive; le module wirelessSPI doit permettre la communication des 5 variables. Cependant, ces deux derniers codes n'ont pas encore été testés sur des cartes Arduino, il s'agit d'une modification que nous avons effectuée après la soutenance
 
 Remarques sur l'exécution des codes :
 
